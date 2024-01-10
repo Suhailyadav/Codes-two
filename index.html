@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;900&display=swap" rel="stylesheet">
+    <title>Todo List</title>
+</head>
+<body>
+    <p class="head">Todo List</p>
+
+    <div class="todo-date-input-add">
+        <input type="text" placeholder="Todo" class="input-element todo-input">
+        <input type="date" placeholder="dd-mm-yyyy"class="todo-date-input date-input">
+        <button 
+            onclick="addToList();" class="add-todo">
+            Add
+        </button>
+    </div>
+
+    <div class="todo-list todo-display"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
